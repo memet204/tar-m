@@ -1,0 +1,400 @@
+@media(max-width:800px){
+ 
+ .menüdiş{
+    flex: 100%;
+    max-width: 600px;
+ }
+
+ .menü4{
+    flex: 100%;
+    max-width: 600px;
+ }
+ 
+
+}
+
+
+
+
+/* koyuu mod kodu*/
+
+
+body {
+    font-family: sans-serif;
+    font-size: 1.125rem;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0 0.9375rem;   
+}
+
+
+
+
+.switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+}
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #black;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+
+.dark,
+.dark * {
+    background-color:#263238 ;
+    color:#161616 ;
+    border-color:#37474F ;
+}
+
+
+
+
+   /* kayann resim kodu*/
+
+.slider-all{
+    width:50%;
+    height: 400px;
+    margin:30px auto;
+    position: relative;
+    overflow: hidden;
+    border:0px solid black;
+  border-radius: 35px;
+    box-shadow: 0px 25px 36px 12px rgba(0, 0, 0, 0.51);
+
+}
+
+
+
+.res1{position: absolute; left:0px;}
+.res2{position: absolute; left:700px;}
+.res3{position: absolute; left:1400px;}
+.res4{position: absolute; left:2100px;}
+.res5{position: absolute; left:2800px;}
+
+.slider{
+    width:2800;
+    height: 400;
+    position: absolute;
+    left:0px;    
+    -webkit-animation-name:sliders;
+    -webkit-animation-duration:10s;
+    -webkit-animation-iteration-count:infinite;
+}
+.slider:hover{-webkit-animation-play-state:paused;}
+
+@-webkit-keyframes sliders{
+    0%{left:0px}
+    10%{left:0px;}
+    20%{left:-700px;}
+    30%{left:-700px;}
+    40%{left:-1400px;}
+    50%{left:-1400px;}
+    60%{left:-2100px;}
+    70%{left:-2100px;} 
+    80%{left:-2800px;} 
+    90%{left:-2800px;} 
+}
+
+
+
+
+/*kan resim bitti*/
+.menü{
+   
+    box-shadow: 0px 25px 36px 12px rgba(0, 0, 0, 0.51);
+	width: 140px;
+	height: 60px;
+	background-color:renk;
+	border-radius: 15px;
+	text-align: center;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.menü4{
+   
+    box-shadow: 0px 25px 36px 12px rgba(0, 0, 0, 0.51);
+    width: 190px;
+    height: 60px;
+    background-color:renk;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+.başlık {
+
+	align-items: 0;
+	vertical-align:;
+	font-size: 120px;
+	margin-left: 340px; 
+    font-family:sufrimeds;
+}
+
+.menüdış {
+	margin-left: 80px;
+	float: left;
+	margin-top: 30px;
+align-items: center;
+	vertical-align: center;
+}
+ 
+
+/*ürün kutuları*/
+
+
+.kart{
+	width: 250px;
+	height: 400px;
+	background-color:renk ;
+	border-radius: 35px;
+	box-shadow: 0px 25px 36px 12px rgba(0, 0, 0, 0.51);
+    text-align: center;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+
+
+
+
+}
+
+.kartdış {
+
+    float:left;
+
+    margin-right: 30px;
+    
+    margin-top: 50px;
+
+    margin-left: 45px;
+
+
+
+}
+
+
+.kartdış2{
+
+
+    float:left;
+
+    margin-right: 30px;
+
+margin-top: 40px;
+
+
+    margin-left: 45px;
+
+}
+
+.kartdış3{
+
+
+    float:left;
+
+    margin-right: 30px;
+
+margin-top: 40px;
+
+
+    margin-left: 45px;
+
+}
+.kartdış4{
+
+
+    float:left;
+
+    margin-right: 30px;
+
+margin-top: 40px;
+
+
+    margin-left: 45px;
+
+}
+
+.kartdış5{
+
+
+    float:left;
+
+    margin-right: 30px;
+
+margin-top: 40px;
+
+
+    margin-left: 45px;
+
+}
+/*   geçiş butonları   */
+
+.buton {
+margin-right: 0px;
+top: 20px;
+}
+ 
+ .buton2 {
+   margin-left: 0px;
+   
+}
+
+
+.butondış {
+        width: 300px;
+    height: 50px;
+    background-color:renk ;
+    border-radius: 35px;
+    box-shadow: 0px 25px 36px 12px rgba(0, 0, 0, 0.51);
+    text-align: center;
+    padding-bottom: 10px;
+    
+   
+   margin-top: 30px;
+
+}
+
+
+/*  menü link leri */
+a:link {
+  color: #43A047;
+}
+
+a:visited {
+	color:black;
+}
+
+a:hover{
+	color: #D50000;
+}
+
+a:active{
+	color: #D50000;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*menü link bitti*/
+
+/*   kutu resim leri kodları    */
+.kuturesmi {
+    width: 200px; height: 200px; border-radius: 35px;
+
+}
+
+
+
+/*   kutu resim leri kodları bitti   */
+
+
+
+
+
+ /*-------- dil deiştirme kodu dışşşş--------*/
+
+.kartdil {
+width: 150px;
+    height:150px;
+    border-radius: 25px;
+    box-shadow: 0px 25px 36px 12px rgba(0, 0, 0, 0.21);
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: center;
+    margin-left:1100px;
+    margin-top: -250px;
+    margin-bottom: 30px;
+}
+
+
+.bayrakdiziliş {
+    margin-left:10px  ; 
+    margin-top: 0px ;
+    margin-right: 30px;
+}
+
+
+.bayrakdiziliş2 {
+    margin-left:10px  ; 
+    margin-top: 0px ;
+    margin-right: 30px;
+}
+
+   /*   safa geçiş butonları*/
+
+
+.pagination {
+  display: inline-block;
+ 
+}
+
+.pagination {
+  color: black;
+  float: center;
+ padding-bottom:50px;
+  text-decoration: none;
+ font-size: 40px;
+}
+
+
+.pagination a:hover:not(.active) {
+  background-color: ;
+   font-size: 50px;
+
+}
+
+.kartsayfa {
+    width:200px;
+    height: 60px;
+    background-color:renk ;
+    border-radius: 35px;
+    box-shadow: 0px 25px 36px 12px rgba(0, 0, 0, 0.51);
+    padding-bottom: 10px;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.kartsayfadış {
+
+
+    float:left;
+
+
+
+margin-top: 60px;
+
+
+    margin-left: 550px;
+
+}

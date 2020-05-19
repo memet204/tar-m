@@ -1,0 +1,175 @@
+
+.menü{
+   
+    box-shadow: 0px 25px 36px 12px rgba(0, 0, 0, 0.51);
+	width: 110px;
+	height: 40px;
+	background-color:renk;
+	border-radius: 15px;
+	text-align: center;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.başlık {
+	align-items: center;
+	vertical-align: center;
+	font-size: 60px;
+}
+
+.menüdış {
+	margin-left: 100px;
+	float: left;
+	margin-top: 30px;
+align-items: center;
+	vertical-align: center;
+}
+ .menüleft {
+ 	margin-left: 100px;
+ }
+
+/*ürün kutuları*/
+
+
+.kart{
+	width: 250px;
+	height: 400px;
+	background-color: #f5f5f5;
+	border-radius: 35px;
+	box-shadow: 0px 25px 36px 12px rgba(0, 0, 0, 0.51);
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+
+
+}
+
+.kartdış {
+
+    float:left;
+
+    margin-right: 30px;
+    
+    margin-top: 50px;
+
+    margin-left: 45px;
+
+
+
+}
+
+.kartdış2{
+
+
+    float:left;
+
+    margin-right: 30px;
+
+margin-top: 40px;
+
+
+    margin-left: 45px;
+
+}
+
+.kartdış3{
+
+
+    float:left;
+
+    margin-right: 30px;
+
+margin-top: 40px;
+
+
+    margin-left: 45px;
+}
+
+.kartdış4{
+
+
+    float:left;
+
+    margin-right: 30px;
+
+margin-top: 40px;
+margin-bottom: 200px;
+
+    margin-left: 45px;
+}
+
+/*kaanresim kodu*/
+
+.slider-all{
+    width:60%;
+    height: 400px;
+    margin:30px auto;
+    position: relative;
+    overflow: hidden;
+    border:0px solid black;
+    border-color: black;
+    border-radius: 35px;
+    box-shadow: 0px 25px 36px 12px rgba(0, 0, 0, 0.51);
+}
+
+.res1{position: absolute; left:0px;}
+.res2{position: absolute; left:700px;}
+.res3{position: absolute; left:1400px;}
+.res4{position: absolute; left:2100px;}
+
+.slider{
+    width:28000px;
+    height: 500px;
+    position: absolute;
+    left:0px;    
+    -webkit-animation-name:sliders ;
+    -webkit-animation-duration:10s;
+    -webkit-animation-iteration-count:infinite;
+}
+.slider:hover{-webkit-animation-play-state:paused;}
+
+@-webkit-keyframes sliders{
+    0%{left:0px}
+    10%{left:00px;}
+    20%{left:-500px;}
+    30%{left:-500px;}
+    40%{left:-1200px;}
+    50%{left:-1200px;}
+    60%{left:-1900px;}
+    70%{left:-1900px;}    
+}
+/*kaan resim kodu bitti*/
+
+
+
+
+/*  menü link leri */
+a:link {
+  color: #43A047;
+}
+
+a:visited {
+	color:black;
+}
+
+a:hover{
+	color: #D50000;
+}
+
+a:active{
+	color: #D50000;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*menü link bitti*/
+
+
